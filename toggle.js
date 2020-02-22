@@ -14,5 +14,5 @@ var button = document.querySelector(".center-logo");
 
 button.addEventListener("click", function(){
     document.body.classList.toggle("bg-secondary");
-	document.body.classList.toggle("bg-info");
+	document.body.classList.toggle("bg-danger");
 });

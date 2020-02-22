@@ -56,13 +56,13 @@ function checkIfWinner()
     if(p1Score >= winningScore)
     {
         playingToDisplay.textContent = "Player One Wins";
-        p1Display.classList.add("winner");
+        p1Display.classList.add("text-success");
         gameOver = true;
     }
     else if(p2Score >= winningScore)
     {
         playingToDisplay.textContent = "Player Two Wins";
-        p2Display.classList.add("winner");
+        p2Display.classList.add("text-success");
         gameOver = true;
     }
 };
@@ -72,10 +72,10 @@ function reset()
     gameOver = false;
     p1Score = 0;
     p1Display.textContent = p1Score;
-    p1Display.classList.remove("winner");
+    p1Display.classList.remove("text-success");
     p2Score = 0;
     p2Display.textContent = p2Score;
-    p2Display.classList.remove("winner");
+    p2Display.classList.remove("text-success");
 
     playingToDisplay.innerHTML = "Playing to: <span id='winningScoreDis'>"+winningScore+"</span>";
 };

@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="shortcut icon" href="img/tattoo_favicon.ico">
-    <link rel="stylesheet" href="VaporRun/TemplateData/style.css">
-    <script src="VaporRun/TemplateData/UnityProgress.js"></script>
+    
     <script src="VaporRun/Build/UnityLoader.js"></script>
     <script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "VaporRun/Build/Builds.json", {onProgress: UnityProgress});
@@ -47,14 +46,7 @@
     </div>
     
     <div class="container mt -2">
-      <div class="webgl-content">
-        <div id="unityContainer" style="width: 960px; height: 600px"></div>
-        <div class="footer">
-          <div class="webgl-logo"></div>
-          <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-          <div class="title">VaporRun 2.0</div>
-        </div>
-      </div>
+      <div id="unityContainer" style="width: 960px; height: 600px; margin: auto"></div>
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

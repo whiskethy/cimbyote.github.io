@@ -33,6 +33,7 @@
   text-decoration: none;
   color: $white;
   padding: 15px;
+  font-size: 1.2rem;
 }
 
 .sidebar-nav li a:hover {
@@ -47,7 +48,7 @@
 }
 
 .sidebar-nav > .sidebar-brand {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   background: fade-out($gray-800, .9);
   height: 80px;
   line-height: 50px;

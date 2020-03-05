@@ -51,3 +51,16 @@ a {
 .text-secondary {
   color: $secondary !important;
 }
+.list-group-item.active
+{
+  background-color: darken($primary, 10%) !important;
+    border-color: darken($primary, 10%) !important;
+}
+#nav-tabContent
+{
+  font-size: 1.2rem;
+}
+#list-tab
+{
+  font-size: 1.2rem;
+}

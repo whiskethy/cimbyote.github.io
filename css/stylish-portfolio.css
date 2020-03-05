@@ -82,7 +82,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/portfolio-bg.jpg");
+  background: linear-gradient(0deg, rgba(238, 153, 99, 0.5) 0%, rgba(35, 170, 118, 0.5) 100%), url("../img/japan.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -344,6 +344,19 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ee9963 !important;
+}
+
+.list-group-item.active {
+  background-color: #1a8059 !important;
+  border-color: #1a8059 !important;
+}
+
+#nav-tabContent {
+  font-size: 1.2rem;
+}
+
+#list-tab {
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=stylish-portfolio.css.map */

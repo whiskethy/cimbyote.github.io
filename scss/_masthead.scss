@@ -6,7 +6,7 @@
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('../img/portfolio-bg.jpg');
+  background: linear-gradient(0deg, fade-out($secondary, 0.5) 0%, fade-out($primary, 0.5) 100%), url('../img/japan.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
   }
+
   @media (min-width: 992px) {
     height: 100vh;
     h1 {

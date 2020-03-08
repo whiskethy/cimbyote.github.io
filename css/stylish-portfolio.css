@@ -17,6 +17,10 @@ body {
   padding-bottom: 7.5rem;
 }
 
+.links_Secondary {
+  color: #f7c4a5;
+}
+
 .content-section-heading h2 {
   font-size: 3rem;
 }
@@ -82,7 +86,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(0deg, rgba(238, 153, 99, 0.5) 0%, rgba(35, 170, 118, 0.5) 100%), url("../img/japan.jpg");
+  background: linear-gradient(0deg, rgba(247, 196, 165, 0.5) 0%, rgba(35, 170, 118, 0.5) 100%), url("../img/japan.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -316,13 +320,13 @@ a:hover, a:focus, a:active {
 }
 
 .btn-secondary {
-  background-color: #ee9963 !important;
-  border-color: #ee9963 !important;
+  background-color: #f7c4a5 !important;
+  border-color: #f7c4a5 !important;
   color: #fff !important;
 }
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #e97b35 !important;
-  border-color: #e97b35 !important;
+  background-color: #f3a576 !important;
+  border-color: #f3a576 !important;
 }
 
 .btn-dark {
@@ -343,7 +347,7 @@ a:hover, a:focus, a:active {
 }
 
 .text-secondary {
-  color: #ee9963 !important;
+  color: #f7c4a5 !important;
 }
 
 .list-group-item.active {

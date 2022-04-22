@@ -36,6 +36,8 @@
         "jquery": "3.5.0",
         "jquery.easing": "^1.4.1",
         "minimist": "^1.2.6",
+        "node-sass": "^7.0.1",
+        "sass": "^1.50.1",
         "simple-line-icons": "^2.4.1"
     },
     "devDependencies": {
